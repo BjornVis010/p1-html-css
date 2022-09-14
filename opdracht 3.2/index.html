@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulier</title>
+</head>
+
+<body>
+    <header>
+        <h1>formulier</h1>
+    </header>
+    <main>
+        <section>
+            <p>voornaam</p>
+            <input required pattern="[A-Za-z]  {0, 100}" /><br>
+            <p>achternaam</p>
+            <input required pattern="[A-Za-z]  {0, 100}" /><br>
+            <p>geslacht</p>
+            man <input type="radio" name="geslacht" id="man">
+            vrouw<input type="radio" name="geslacht" id="vrouw"><br>
+            <p>straat</p><input required pattern="[A-za-z]  {0, 100}" />nr<input type="number" name="number"
+                id="number">
+            
+            <p>postcode</p>
+            <input type="text" name="postcode" id="postcode">
+            <p>stad</p>
+            <input required pattern="[A-Za-z]  {0, 100}" /><br>
+            <p>land</p>
+            <input required pattern="[A-Za-z]  {0, 100}" /><br>
+            <p>bsn</p>
+            <input type="number" name="bsn" id="bsn" min="0" max="999999999">
+            <p>vakantieland</p>
+            <select name="vakantieland" id="vakantieland">
+                <option value="spanje">spanje</option>
+                <option value="frankrijk">frankrijk</option>
+                <option value="italië">italië</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Montenegro">Montenegro</option>
+                <option value="dubai">dubai</option>
+                <option value="egypte">egypte</option>
+                <option value="polen">polen</option>
+                <option value="turkije">turkije</option>
+                <option value="marocco">marocco</option>
+                <option value="china">china</option>
+            </select><br>
+
+            <br> datum van vertrek<input type="datetime-local" name="date" id="date" min="today"/><br>
+            <br> datum van terugkomst <input type="datetime-local" name="date" id="date" min="today"/><br>
+            <br> aantal personen <input type="number" name="number" id="number" min="0" max="4">
+            <br><input type="submit" value="boek nu"><br>
+            <br>email<input type="email" name="email" id="email">
+            <br>wachtwoord <input type="password" name="wachtwoord" id="wachtwoord">
+        </section>
+    </main>
+</body>
+
+</html>
