@@ -32,3 +32,34 @@ a:link {
 img {
     width: 50%;
 }
+
+header {
+    width: 100%;
+    font-size: 100%;
+    height: 300px
+}
+
+.header::before {
+    content: "";
+    background-image: url("./img/7448.png");
+   opacity: 0.4;
+   width: 100vw;
+   height: 33vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: absolute;
+   z-index: -1;
+
+}
+
+header h1 {
+
+}
+
+article {
+    border-style: ridge;
+    border-radius: 3%;
+    border-color: lightgray;
+    border-width: 7px;
+    border-left-width: 15px;
+}
