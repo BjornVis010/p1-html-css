@@ -19,12 +19,33 @@ p {
   font-size: 1.5rem;
 }
 
+.header1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/img/clint-patterson-dYEuFB8KQJk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: absolute;
+  margin-top: 45rem;
+  margin-left: 25rem;
+  font-size: 8rem;
+  padding: 2rem;
+}
+
 .hacker-background {
   width: 100vw;
   height: 100vh;
 }
 
-h1,
 h2,
 h3 {
   color: white;
@@ -45,7 +66,9 @@ nav {
   background: #00a8c7;
   justify-content: space-between;
   position: fixed;
+  z-index: 1;
 }
+
 nav ul {
   display: flex;
   align-items: center;
@@ -130,21 +153,23 @@ footer {
 
 .html5-logo {
   float: left;
-  margin-left: 20rem;
+  margin-left: 15rem;
+  margin-top: 6rem;
 }
 .css3-logo {
   float: left;
+  margin-top: 6rem;
 }
 
 .htmlcss {
-  margin-left: 65rem;
   margin-top: 11rem;
+  font-size: 5rem;
 }
 
 .text {
   float: right;
-  margin-right: 0.9rem;
-  margin-top: 3rem;
+  margin-right: 4rem;
+  margin-top: 10rem;
   display: flex;
   border-style: ridge;
   border-color: black;
@@ -152,13 +177,14 @@ footer {
 }
 
 .javascript {
-  margin-top: 60rem;
-  margin-right: 75rem;
+  margin-top: 35rem;
+  font-size: 5rem;
 }
 
 .text2 {
   float: left;
-  margin-right: 39rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
   margin-top: 5rem;
   display: flex;
   border-style: ridge;
@@ -169,20 +195,20 @@ footer {
 .img2 {
   float: right;
   margin-right: 20rem;
- margin-bottom: 40rem;
   display: flex;
   border-style: ridge;
   border-top: black;
 }
 
 .php {
-  margin-top: 60rem;
+  margin-top: 30rem;
+  font-size: 5rem;
 }
 
 .text3 {
   float: right;
   margin-right: 0.9rem;
-  margin-top: 20rem;
+  margin-top: 6rem;
   display: flex;
   border-style: ridge;
   border-color: black;
@@ -190,9 +216,27 @@ footer {
 }
 
 .img3 {
-  margin-top: 10rem;
+  margin-left: 25rem;
+  margin-top: 5rem;
 }
 
 .text4 {
-  float: right;
+  float: left;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  border-style: ridge;
+  border-color: black;
+  width: 50vw;
+}
+
+.mysql {
+  margin-top: 10rem;
+  font-size: 5rem;
+}
+
+.img4 {
+  margin-left: 10rem;
 }
