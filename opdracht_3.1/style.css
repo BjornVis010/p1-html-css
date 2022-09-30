@@ -22,7 +22,7 @@ p {
 .header1 {
   width: 100vw;
   height: 100vh;
-  background-image: url(/img/clint-patterson-dYEuFB8KQJk-unsplash.jpg);
+  background-image: url( img/clint-patterson-dYEuFB8KQJk-unsplash.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -99,12 +99,6 @@ nav img {
   border: none;
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
@@ -120,7 +114,8 @@ nav img {
   color: #00a8c7;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Change color of dropdown links on hover */
@@ -130,7 +125,8 @@ nav img {
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
