@@ -1,0 +1,53 @@
+html {
+    font-size: 62.5%;
+}
+
+.block1 {
+    background-color: blue;
+    color: blue;
+    height: 20rem;
+    width: 20rem;
+}
+
+.block2 {
+    background-color: black;
+    color: black;
+    height: 20rem;
+    width: 20rem;
+}
+
+.block3 {
+    background-color: red;
+    color: red;
+    height: 20rem;
+    width: 20rem;
+}
+
+.block4 {
+    background-color: green;
+    color: green;
+    height: 20rem;
+    width: 20rem;
+}
+
+section {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+header {
+    max-width: 120rem;
+    max-height: 120rem;
+    position: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+
+    color: #ff00e1;
+}
