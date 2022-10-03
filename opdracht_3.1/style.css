@@ -48,8 +48,9 @@ h1 {
 
 h2,
 h3 {
+  display: flex;
+  justify-content: center;
   color: white;
-  text-align: center;
   font-weight: bold;
   font-size: 20px;
   padding-top: 2rem;
@@ -87,7 +88,8 @@ nav img {
 }
 
 .content h1 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* Dropdown Button */
@@ -140,7 +142,8 @@ footer {
   margin-top: 2rem;
   color: #fff;
   background: #00a8c7;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   left: 0;
   bottom: 0;
   width: 100vw;
