@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+}
+
+nav {
+    padding: 4.5vh;
+    background-color: coral;
+    color: white;
+}
+
+.sec1 {
+    padding-bottom: 24vh;
+    background-color: orange;
+}
+
+.sec2 {
+    padding-bottom: 24vh;
+    background-color: orangered;
+}
+
+.sec3 {
+    padding-bottom: 24vh;
+    background-color: lightgreen;
+}
+
+nav p{
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    html {
+    font-size: 62.5%;
+    }
+
+    nav {
+        background-color: slateblue;
+        color: white;
+    }
+
+   .hetblok{
+        float: right;
+        background-color: white;
+        height: 20px;
+        width: 20px;
+        visibility: visible;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    .sec1 {
+        background-color: turquoise;
+        color: white;
+    }
+
+    .sec2 {
+        background-color: violet;
+        color: white;
+    }
+
+    .sec3 {
+        background-color: darkblue;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    html {
+    font-size: 62.5%;
+    }
+    nav {
+        background-color: rgb(255, 93, 93);
+        color: white;
+    }
+   .hetblok{
+        float: right;
+        background-color: white;
+        height: 20px;
+        width: 20px;
+        visibility: hidden;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+    }
+    .sec1 {
+        background-color: rgb(253, 25, 25);
+        color: white;
+    }
+    .sec2 {
+        background-color: blue;
+        color: white;
+    }
+    .sec3 {
+        background-color: darkblue;
+        color: white;
+    }
+}
