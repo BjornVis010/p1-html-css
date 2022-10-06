@@ -59,3 +59,29 @@
     background-color: white;
     padding: 2rem;
   }
+
+  h2 {
+    color: white;
+  }
+
+  div {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .div1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .div2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pic1, .pic2, .pic3, .pic4, .pic5 {
+padding: 3rem;
+
+    height: 20rem;
+    width: 20rem;
+  }
