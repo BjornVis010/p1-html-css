@@ -12,23 +12,23 @@ body {
 }
 
 nav {
-    padding: 4.5vh;
+    padding: 5vh;
     background-color: coral;
     color: white;
 }
 
 .sec1 {
-    padding-bottom: 24vh;
+    padding-bottom: 25vh;
     background-color: orange;
 }
 
 .sec2 {
-    padding-bottom: 24vh;
+    padding-bottom: 25vh;
     background-color: orangered;
 }
 
 .sec3 {
-    padding-bottom: 24vh;
+    padding-bottom: 25vh;
     background-color: lightgreen;
 }
 
