@@ -55,12 +55,16 @@ li {
   color: white;
 }
 
-h2 {
+.h2nav {
   color: white;
   display: flex;
   align-items: center;
   font-size: 2rem;
   font-family: "pattaya";
+}
+
+.div1page2 {
+  border-bottom: 3px solid white
 }
 
 header {
@@ -70,6 +74,17 @@ header {
   z-index: 0;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.headerpage2 {
+  background-image: url(/img/new-york-page.png);
+  height: 100vh;
+  width: 100vw;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: grey;
+  background-position-y: center;
 }
 
 section {
@@ -84,10 +99,22 @@ section {
   opacity: 100%;
 }
 
+.sectionpage2 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  z-index: 1;
+  color: white;
+  font-size: 2rem;
+  opacity: 100%;
+}
+
 .booknowbutton {
   z-index: 2;
   padding: 1.5rem;
-  width: 15%;
+  width: 10%;
   background-color: #4c6e97;
   border-style: none;
   color: white;
