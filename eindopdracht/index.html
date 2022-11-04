@@ -5,26 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
-        <a class="h2nav" href="index.html"><h2>Travelly</h2></a>
+        <a class="h2nav" href="#page1"><h2>Travelly</h2></a>
         <ul class="navul">
-            <li><a href="location.html">Location</a></li>
-            <li><a href="benefits.html">Benefits</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#page2">Location</a></li>
+            <li><a href="#page3">Benefits</a></li>
+            <li><a href="#page4">Contact</a></li>
         </ul>
     </nav>
-    <header>
-        <section class="secpage2">
+    <header class="headerpage1">
+        <section class="secpage2" id="page1">
             <h1>Travel Beyond Limits.</h1>
             <br><p>Start your travel at an affordable price with Travelly</p>
-            <p>Contact us now below.</p>
+            <p>Contact us now bellow.</p>
             <br><input class="booknowbutton" type="submit" value="Book Now">
         </section>
     </header>
+    <header class="headerpage2">
+        <section class="sectionpage2" id="page2">
+            <div class="div1page2"><h1>Time to explore.</h1></div>
+            <div class="div2page2"><br><p>Has your dream always been to visit New York?
+            <br> we can make it possible for you.</p></div>
+        </section>
+    </header>
+    <div class="textpage3">
+        <h1>The Perfect Travel Experience.</h1>
+        <br>
+        <p>We cover everything from picking the perfect hotel,
+        <div class="centerthis">
+            flight and travelling destination</p>
+        </div>
+    </div>
+    <section class="travelpage3" id="page3">
+        <div class="tablet1">
+            <div class="routesolid"><img class="routeicon" src="./img/route-solid.svg" alt="iconroute"></div>
+            <div class="table1">
+                <h5>Travel</h5>
+                <br><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex a minima illum eveniet nobis aperiam
+                    dolorem? Molestias, eveniet atque praesentium ut cupiditate sapiente tempora pariatur earum assumenda
+                    doloribus voluptatem porro.
+                </p>
+            </div>        
+        </div>
+        <div class="tablet2">
+            <div class="hotelsolid"><img class="hotelicon" src="./img/bed-solid.svg" alt="iconroute"></div>
+            <div class="table2">
+                <h5>Hotel</h5>
+                <br><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex a minima illum eveniet nobis aperiam
+                    dolorem? Molestias, eveniet atque praesentium ut cupiditate sapiente tempora pariatur earum assumenda
+                    doloribus voluptatem porro.
+                </p>
+            </div>
+        </div>
+        <div class="tablet3">
+            <div class="flysolid"><img class="flyicon" src="./img/plane-departure-solid.svg" alt="iconroute"></div>
+            <div class="table3">
+                <h5>Fly</h5>
+                <br><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex a minima illum eveniet nobis aperiam
+                    dolorem? Molestias, eveniet atque praesentium ut cupiditate sapiente tempora pariatur earum assumenda
+                    doloribus voluptatem porro.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="page4" id="page4">
+        <header class="backimgpage4">
+            <h1>Contact Us</h1>
+            <div class="contact-div">
+                <br><label for="name">Name:</label><input type="text" name="name" id="name"><br>
+                <br><label for="email">email:</label><input type="text" name="email" id="email">
+                <div><input class="submit-end" type="submit" value="submit"></div>
+            </div>
+        </header>
+
+    </section>
 </body>
 </html>
